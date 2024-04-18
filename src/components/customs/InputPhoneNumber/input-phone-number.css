@@ -1,0 +1,11 @@
+.number-case {
+    @apply text-center bg-inherit border-b border-black/50 focus:outline-none;
+}
+
+.number-case--two {
+    @apply w-10;
+}
+
+.number-case--three {
+    @apply w-16;
+}

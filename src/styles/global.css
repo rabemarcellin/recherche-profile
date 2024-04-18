@@ -1,0 +1,8 @@
+/* import tailwindcss class */
+@import url('./tailwind.css');
+
+@import url('react-phone-number-input/style.css');
+
+body {
+    @apply font-text;
+}

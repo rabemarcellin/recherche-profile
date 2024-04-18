@@ -1,0 +1,79 @@
+table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+    @apply border rounded-xl overflow-hidden shadow;
+}
+
+/*
+
+tr:first-of-type {
+    @apply pb-2;
+}
+th {
+    @apply p-2 border-t border-b bg-slate-50;
+}
+
+th:first-of-type {
+    @apply border-l rounded-l-xl;
+}
+
+th:last-of-type  {
+    @apply border-r rounded-r-xl;
+}
+
+.subscription td {
+    @apply border-t border-b;
+}
+
+.subscription td:first-of-type {
+    @apply border-l rounded-tl-xl;
+}
+
+.subscription td:last-of-type {
+    @apply border-r rounded-tr-xl;
+}
+
+th, td {
+    @apply  text-center border-b;
+}
+
+
+tr:last-of-type td {
+    @apply border-b-0;
+}
+
+
+.subscription--active {
+    @apply translate-x-4;
+}
+
+.subscription--active td {
+    @apply  bg-blue-500 text-white my-4 border shadow-xl;
+}
+
+
+.subscription--active td:first-of-type {
+    @apply  rounded-l-xl ;
+}
+
+.subscription--active td:last-of-type {
+    @apply  rounded-r-xl ;
+}
+
+*/
+
+th, td {
+    @apply p-4;
+}
+
+th {
+    @apply text-start bg-slate-50;
+}
+
+td {
+    @apply border-t;
+}
+
+.subscription--active {
+    @apply shadow-md rounded text-white font-bold bg-blue-500 ;
+}

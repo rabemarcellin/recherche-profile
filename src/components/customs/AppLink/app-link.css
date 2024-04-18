@@ -1,0 +1,8 @@
+.link {
+    @apply hover:bg-slate-100 p-2 rounded-full;
+}
+
+.link--active {
+    @apply bg-blue-500 text-white;
+    @apply hover:bg-blue-500;
+}
